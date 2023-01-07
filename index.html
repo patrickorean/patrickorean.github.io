@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Vanilla JS Challenge</title>
+  </head>
+  <body>
+    <h2 id="clock" class="clock">00:00:00</h2>
+    <div id="weather">
+      <span>weather</span>
+      <span>city</span>
+    </div>
+  
+    <form class="hidden" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+        class="login-input"
+      />
+      <input class="login-button" type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden center" id="greeting"></h1>
+
+    <form id="todo-form">
+      <input class="todo-input" type="text" placeholder="Press Enter to add" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote" class="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
